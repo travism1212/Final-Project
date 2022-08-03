@@ -1,0 +1,215 @@
+html{
+
+background-color: #212529;
+
+}
+
+body {
+
+margin:0 auto;
+font-family: 'Montserrat', sans-serif;
+max-width: 1440px;
+background-color: #f8f9fa;
+text-align: center;
+
+
+
+}
+
+p, h3 {
+
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
+header {
+    display:flex;
+    align-items: center;
+
+}
+
+body > header {
+
+    background-color: #212529;
+    padding: 20px 200px 10px;
+    justify-content: space-between;
+
+}
+h1 a {
+
+    color: #fed136;
+    text-transform: uppercase;
+
+
+}
+
+nav a {
+
+    color:#f8f9fa;
+
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+
+}
+
+nav li {
+
+
+    display: inline-block;
+    margin-left: 10px;
+
+
+}
+
+main header {
+
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #f8f9fa;
+    flex-direction: column;
+    height: 800px;
+    justify-content: center;
+
+}
+
+header h3 {
+
+    font-size: 2em;
+    font-style: italic;
+
+}
+
+header h2 {
+
+    font-size: 3.5em;
+    margin-top: 0;
+    font-weight: bold;
+  
+}
+
+header button {
+
+    padding: 15px 25px;
+    border-radius: 4px;
+    color:#f8f9fa;
+    background-color: #fed136;
+    font-weight: bold;
+
+}
+
+main section {
+
+    display: inline-block;
+    margin: 30px 75px;
+    width: 20%;
+
+ 
+}
+
+h4 {
+
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+main > p {
+
+    margin-top: 0;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.9em;
+    color: grey;
+
+}
+
+section p {
+
+    color:grey;
+
+}
+
+h5 {
+
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: 800;
+
+}
+
+footer {
+
+    display:flex;
+    /*lines up direct children elements into a row*/
+    justify-content: space-around;
+    padding: 15px 200px 150px;
+    border-top: 1px solid #212529;
+    align-items: center;
+}
+
+footer a {
+
+    color: #fed136;
+    display: inline-block;
+    margin-left: 10px;
+
+
+}
+
+img {
+
+    max-width: 100%;
+
+
+}
+
+.team {
+
+    border-radius: 50%;
+    border: 8px solid lightgray;
+
+}
+
+aside p {
+
+    margin: 0 auto 150px;
+    color:gray;
+    max-width: 600px;
+
+
+}
+
+input, textarea {
+
+    display: block;
+    margin: 0 auto 25px;
+    width: 400px;
+
+}
+
+section {
+
+    display: block;
+    margin: 0 auto 25px;
+    width: 400px;
+
+
+}
+
+section h5 {
+
+    padding: 10px;
+
+}
